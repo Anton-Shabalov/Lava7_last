@@ -5,8 +5,8 @@ import network.ConnectionAccepter;
 import java.sql.*;
 
 public class DataBase {
-    private static String login="s312988";
-    private static String password="ont372";
+    private static String login="";
+    private static String password="";
     private static String URL= "jdbc:postgresql://pg:5432/studs";
     private static Connection connection=null;
 
